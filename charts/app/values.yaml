@@ -1,0 +1,9 @@
+image:
+  repository: REPLACE_ME
+  tag: "latest"
+service:
+  port: 8080
+ingress:
+  enabled: true
+  className: alb
+  name: REPLACE_ME

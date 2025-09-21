@@ -1,0 +1,4 @@
+apiVersion: v2
+name: app
+version: 0.1.0
+description: minimal app chart with rollout + svc + ingress
