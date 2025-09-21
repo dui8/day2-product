@@ -1,0 +1,9 @@
+image:
+  repository: 418295679352.dkr.ecr.eu-central-1.amazonaws.com/product/prod
+  tag: "latest"
+service:
+  port: 8080
+ingress:
+  enabled: true
+  className: alb
+  name: prod-ingress
